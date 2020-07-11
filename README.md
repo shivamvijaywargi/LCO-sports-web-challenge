@@ -10,6 +10,7 @@ This was for a coding challenge provided by LCO Team.
 
 1. Make navbar appear on smaller screens.
 1. Implement Modal view for Log In and Sign Up.
+1. Maybe some UI improvements.
 
 ## License
 
