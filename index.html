@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="img/sports-logo-transparent.png"
+      type="image/png"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/js/all.min.js"
+      integrity="sha512-M+hXwltZ3+0nFQJiVke7pqXY7VdtWW2jVG31zrml+eteTP7im25FdwtLhIBTWkaHRQyPrhO2uy8glLMHZzhFog=="
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="dist/css/style.min.css" />
+    <title>LCO | Amazing Basketball Tournament</title>
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <!-- Navbar Start -->
+        <nav class="navbar">
+          <a href="#">
+            <img
+              src="img/sports-logo-transparent.png"
+              alt="Logo"
+              class="navbar__logo"
+            />
+          </a>
+
+          <div class="navbar__links" id="topnav">
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#team">Team</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li><a href="#" class="login">Log In</a></li>
+              <li><a href="#" class="signup">Sign Up</a></li>
+
+              <a href="#" class="navbar" onclick="toggleNav()">
+                <i class="fas fa-bars icon"></i
+              ></a>
+            </ul>
+          </div>
+        </nav>
+
+        <div class="slide img1">
+          <span class="main--text1">
+            Amazing <span class="basketball">Basketball</span> Tournament <br />
+            <span class="main--text2"> Go fight for it team. </span>
+          </span>
+        </div>
+        <div class="slide img2">
+          <span class="main--text1">
+            Amazing <span class="basketball">Basketball</span> Tournament <br />
+            <span class="main--text2"> Go fight for it team. </span>
+          </span>
+        </div>
+
+        <div id="left-arrow">
+          <i class="fas fa-chevron-left btn-left" onclick="plusDivs(-1)"></i>
+        </div>
+
+        <div id="right-arrow">
+          <i class="fas fa-chevron-right btn-right" onclick="plusDivs(1)"></i>
+        </div>
+      </div>
+      <!-- Navbar End -->
+    </header>
+
+    <section id="about" class="about">
+      <div class="about__container">
+        <img class="about__container--img" src="img/img2.png" alt="about-img" />
+        <div class="about__container--text">
+          <h3>About Us</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat rem
+            corrupti alias ex voluptas dolor autem modi laudantium delectus,
+            hic, molestias vitae. Reiciendis odit expedita facere, quam
+            voluptate, magni hic est rem, molestias pariatur iure.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="tournament" class="tournament">
+      <div class="tournament__top-heading">
+        <h2>Big Tournament coming soon</h2>
+      </div>
+      <div class="tournament__bottom-heading">
+        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+      </div>
+    </section>
+
+    <section class="team" id="team">
+      <div class="team__wrapper">
+        <div class="team__wrapper--card">
+          <img
+            class="card-img"
+            src="img/Michael Jordan.jpg"
+            alt="Michael Jordan"
+          />
+          <h2>Michael Jordan</h2>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
+        </div>
+
+        <div class="team__wrapper--card">
+          <img class="card-img" src="img/LeBron James.jpg" alt="LeBron James" />
+          <h2>LeBron James</h2>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
+        </div>
+
+        <div class="team__wrapper--card">
+          <img
+            class="card-img"
+            src="img/Shaquille O'Neal.jpg"
+            alt="Shaquille O'Neal"
+          />
+          <h2>Shaquille O'Neal</h2>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
+        </div>
+
+        <div class="team__wrapper--card">
+          <img class="card-img" src="img/Tim Duncan.jpg" alt="Tim Duncan" />
+          <h2>Tim Duncan</h2>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
+        </div>
+
+        <div class="team__wrapper--card">
+          <img
+            class="card-img"
+            src="img/Magic Johnson.jpg"
+            alt="Magic Johnson"
+          />
+          <h2>Magic Johnson</h2>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="lco-video">
+      <div class="image-art"></div>
+      <iframe
+        width="620"
+        height="360"
+        src="https://www.youtube.com/embed/hqvGOPB0KmQ"
+        frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+        class="yt-video"
+      ></iframe>
+    </section>
+
+    <section class="faq">
+      <div class="faq__bg">
+        <div class="wrapper">
+          <div class="faq__heading">
+            FAQs
+          </div>
+          <div class="faq__main">
+            <h2>1. Lorem, ipsum dolor.</h2>
+            <p>
+              Ans. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Repudiandae qui unde illum.
+            </p>
+
+            <h2>2. Lorem, ipsum dolor.</h2>
+            <p>
+              Ans. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Repudiandae qui unde illum.
+            </p>
+
+            <h2>3. Lorem, ipsum dolor.</h2>
+            <p>
+              Ans. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Repudiandae qui unde illum.
+            </p>
+
+            <h2>4. Lorem, ipsum dolor.</h2>
+            <p>
+              Ans. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Repudiandae qui unde illum.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="contact__detail">
+        <span><i class="fas fa-phone-volume icon-mob"></i> +91 999999999</span>
+        <a href="mailto:vijaywargishivam@gmail.com">
+          <i class="fas fa-envelope icon-mail"></i>
+          <span class="mail">vijaywargishivam@gmail.com</span>
+        </a>
+      </div>
+
+      <div class="contact__address">
+        <i class="fas fa-home icon-home"></i>
+        <span class="address-margin">
+          Address: LCO Basketball Ground, 55 - Fictional Homes, Fictional Road
+          Near Fictional Lake. India</span
+        >
+      </div>
+    </section>
+
+    <!-- JS -->
+    <script>
+      function navbar() {
+        let toggleNav = document.querySelector('#topnav');
+        if (toggleNav.className === 'navbar__links') {
+          toggleNav.className += 'responsive';
+        } else {
+          toggleNav.className += 'navbar__links';
+        }
+      }
+
+      let sliderImages = document.querySelectorAll('.slide');
+      let leftArrow = document.querySelector('#left-arrow');
+      let rightArrow = document.querySelector('#right-arrow');
+      let current = 0;
+
+      // Clear all images
+      function reset() {
+        for (let i = 0; i < sliderImages.length; i++) {
+          sliderImages[i].style.display = 'none';
+        }
+      }
+
+      // Initialize Slide
+      function startSlide() {
+        reset();
+
+        sliderImages[0].style.display = 'block';
+      }
+
+      // Show Previous image
+      function slideLeft() {
+        reset();
+        sliderImages[current - 1].style.display = 'block';
+        current--;
+      }
+
+      // Show next Image
+      function slideRight() {
+        reset();
+        sliderImages[current + 1].style.display = 'block';
+        current++;
+      }
+
+      // Left Arrow click event
+      leftArrow.addEventListener('click', () => {
+        if (current === 0) {
+          current = sliderImages.length;
+        }
+        slideLeft();
+      });
+
+      // Right Arrow click event
+      rightArrow.addEventListener('click', () => {
+        if (current === sliderImages.length - 1) {
+          current = -1;
+        }
+        slideRight();
+      });
+
+      startSlide();
+
+      // Automatic Slideshow
+      carousel();
+
+      function carousel() {
+        let i;
+        for (i = 0; i < sliderImages.length; i++) {
+          sliderImages[i].style.display = 'none';
+        }
+        current++;
+        if (current > sliderImages.length) {
+          current = 1;
+        }
+        sliderImages[current - 1].style.display = 'block';
+        setTimeout(carousel, 3000); // Change image every 2 seconds
+      }
+    </script>
+  </body>
+</html>
